@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Portfolio</title>
+
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+ 
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      background: linear-gradient(135deg, #ffe1eb, #f8b6c9);
+      font-family: 'Raleway', sans-serif;
+      color: #6b0f28;
+      padding-top: 40px;
+    }
+
+    h1 {
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .card {
+      background-color: #ffffff;
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+      padding: 20px;
+    }
+
+    .card img {
+      border-radius: 12px;
+      margin-bottom: 15px;
+    }
+
+    h3 {
+      margin-top: 20px;
+      font-weight: 600;
+    }
+
+    ul li {
+      margin-bottom: 5px;
+    }
+
+    .btn-custom {
+      background-color: #d6336c;
+      color: white;
+      border-radius: 50px;
+      padding: 8px 18px;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn-custom:hover {
+      background-color: #b52a58;
+      color: white;
+    }
+    footer {
+      background-color: #e37598;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container container-fluid">
+    <h1>Hannah Alsol</h1>
+
+    <div class="row g-4">
+      
+      <div class="col-md-4">
+        <div class="card">
+          <h3>Education</h3>
+          <p>
+            With my 3 years of IGCSE studies, I have developed a strong academic foundation that has helped me identify my passion
+            for software engineering and the courses needed to achieve it.
+          </p>
+
+          <h3>Plans</h3>
+          <p>
+            I plan to continue my education in software engineering, focusing on programming languages such as Python, Java,
+            and C++. I aim to gain practical experience through internships and projects, as well as participate in clubs
+            and activities to broaden my knowledge and skills.
+          </p>
+        </div>
+      </div>
+
+      
+      <div class="col-md-4 text-center">
+        <div class="card">
+          <img src="c:\Users\hanna\OneDrive\Desktop\After class projects\Hannah.jpg" alt="My profile picture" class="img-fluid">
+          <h4>Personal Information</h4>
+          <p>
+            I am a high school student aspiring to become a future software engineer. I have taken various educational
+            paths to support this dream and continuously seek opportunities to learn.
+          </p>
+          <a href="https://www.linkedin.com/in/hannah-alsol-418071206/" class="btn btn-custom m-1">LinkedIn</a>
+          <a href="https://github.com/dashboard" class="btn btn-custom m-1">GitHub</a>
+        </div>
+      </div>
+
+      
+      <div class="col-md-4">
+        <div class="card">
+          <h3>Goals</h3>
+          <p>
+            My goal is to attend a reputable university where I can deepen my software engineering skills and expand my
+            understanding of multiple programming languages to prepare for a successful career.
+          </p>
+
+          <h3>Skills</h3>
+          <ul>
+            <li>Collaborative</li>
+            <li>Problem-solving</li>
+            <li>Adaptable</li>
+            <li>Critical thinking</li>
+            <li>Time management</li>
+            <li>Communication</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <footer>
+    <p>© 2025 Hannah Alsol | Future Software Engineer</p>
+  </footer>
+  <br>
+  <br>
+  <div class="text-right mb-4">
+    <a href="c:\Users\hanna\OneDrive\Desktop\After class projects\Benefits.html" class="btn btn-danger btn-lg">
+     ❤️ Next Page ❤️
+    </a>
+    </div>
+<nav aria-label="Pages">
+    <text-align: center;>
+      <ul class="pagination justify-content-center">
+        <li class="page-item"><a class="page-link" href="c:\Users\hanna\OneDrive\Desktop\After class projects\practive.html">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="c:\Users\hanna\OneDrive\Desktop\After class projects\practive.html">1</a></li>
+        <li class="page-item"><a class="page-link" href="c:\Users\hanna\OneDrive\Desktop\After class projects\Benefits.html">2</a></li>
+         <li class="page-item"><a class="page-link" href="c:\Users\hanna\OneDrive\Desktop\After class projects\Skills.html">3</a></li>
+          <li class="page-item"><a class="page-link" href="c:\Users\hanna\OneDrive\Desktop\After class projects\Educational background.html">4</a></li>
+      </ul>
+  </ul>
+</nav>
+</body>
+</html>
+
+
