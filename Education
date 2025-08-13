@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Educational Background - Hannah Alsol</title>
+
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+  <style>
+    body {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      background-color: #fff6f9;
+      color: #5a2a3c;
+      line-height: 1.8;
+    }
+
+    
+    .hero {
+      background: linear-gradient(135deg, #fbb6ce, #fddce1);
+      padding: 100px 20px;
+      text-align: center;
+      color: white;
+      margin-bottom: 60px;
+    }
+
+    .hero h1 {
+      font-weight: bold;
+      font-size: 2.5rem;
+    }
+
+    .hero p {
+      font-size: 1.3rem;
+      margin-top: 15px;
+    }
+
+    
+    .timeline {
+      position: relative;
+      margin: 50px 0;
+      padding-left: 70px;
+      border-left: 4px solid #f28cab;
+    }
+
+    .timeline-item {
+      margin-bottom: 50px;
+      position: relative;
+    }
+
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: -15px;
+      background-color: #f28cab;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      top: 8px;
+    }
+
+    .timeline-item h4 {
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    
+    .skills {
+      background-color: #fff;
+      border-radius: 15px;
+      padding: 50px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+      margin-bottom: 60px;
+    }
+
+    .skill-icon {
+      font-size: 2rem;
+      color: #f06292;
+      margin-bottom: 15px;
+    }
+
+    
+    ul {
+      padding-left: 50px;
+    }
+
+    ul li {
+      margin-bottom: 15px;
+    }
+
+    
+    footer {
+      text-align: center;
+      padding: 30px;
+      font-size: 0.95rem;
+      background-color: #fddce1;
+      color: #5a2a3c;
+    }
+  </style>
+</head>
+
+<body>
+
+  
+  <section class="hero">
+    <h1>My Educational Background</h1>
+    <p>Building the foundation for a future in Software Engineering & Cyber Security</p>
+  </section>
+
+  
+  <div class="container">
+    <h2 class="text-center mb-5">Education Journey</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <h4>Year 11 - High School (Current)</h4>
+        <ul>
+          <li>Specialising in Computer Science, Mathematics, and Digital Technologies.</li>
+          <li>Actively participating in tech-related school activities and coding clubs.</li>
+        </ul>
+      </div>
+      <div class="timeline-item">
+        <h4>Self-Study & Online Courses</h4>
+        <ul>
+          <li>Learning programming fundamentals (Python, HTML, CSS, JavaScript).</li>
+          <li>Exploring cyber security basics through online resources and tutorials.</li>
+        </ul>
+      </div>
+      <div class="timeline-item">
+        <h4>Future Plans</h4>
+        <ul>
+          <li>Pursue a Software Engineering degree with a focus on Cyber Security.</li>
+          <li>Innovate and protect digital systems with advanced security knowledge.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="container skills">
+    <h2 class="text-center mb-5">Key Skills & Knowledge Areas</h2>
+    <div class="row text-center">
+      <div class="col-md-4 mb-5">
+        <div class="skill-icon"><i class="bi bi-code-slash"></i></div>
+        <h5>Programming</h5>
+        <ul>
+          <li>Proficient in HTML & CSS.</li>
+          <li>Beginner-level Python & JavaScript.</li>
+        </ul>
+      </div>
+      <div class="col-md-4 mb-5">
+        <div class="skill-icon"><i class="bi bi-shield-lock"></i></div>
+        <h5>Cyber Security Basics</h5>
+        <ul>
+          <li>Understanding online threats & safe practices.</li>
+          <li>Basic data protection and encryption concepts.</li>
+        </ul>
+      </div>
+      <div class="col-md-4 mb-5">
+        <div class="skill-icon"><i class="bi bi-lightbulb"></i></div>
+        <h5>Problem Solving</h5>
+        <ul>
+          <li>Strong logical thinking skills.</li>
+          <li>Experience in tackling coding challenges and puzzles.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  
+  <footer>
+    <p>© 2025 Hannah Alsol | Aspiring Software Engineer & Cyber Security Specialist</p>
+  </footer>
+<div class="text-left mb-4">
+      <a href="c:\Users\hanna\OneDrive\Desktop\After class projects\Skills.html" class="btn btn-danger btn-lg">❤️ Previous Page ❤️</a>
+    </div>
+
+    <nav aria-label="Pages">
+      <ul class="pagination justify-content-center">
+        <li class="page-item"><a class="page-link" href="practive.html">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="practive.html">1</a></li>
+        <li class="page-item"><a class="page-link" href="Benefits.html">2</a></li>
+        <li class="page-item"><a class="page-link" href="Skills.html">3</a></li>
+         <li class="page-item"><a class="page-link" href="c:\Users\hanna\OneDrive\Desktop\After class projects\Educational background.html">4</a></li>
+      </ul>
+    </nav>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
